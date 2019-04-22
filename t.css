@@ -1,0 +1,30 @@
+.all{
+ width:960px;
+ margin:auto;
+    display: flex;
+}
+.box{
+   flex:1;
+   
+    margin-right: 15px;
+
+}
+.photo{
+    position: relative;
+}
+.photo:hover .box-inner{
+    display: block;
+}
+.box-inner{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top:0;
+    left: 0;
+    opacity: 0.7;
+    display: none;
+    background: black
+}
+img{
+    width:100%;
+}
